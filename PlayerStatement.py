@@ -1,6 +1,9 @@
 import DialogueNode
 
 class PlayerStatement:
+    """
+    PlayerStatement incorporates one dialogue option of the player
+    """
     def __init__(self, text="", 
             next_node=DialogueNode.DialogueNode(),
             ends_convo = False):
